@@ -1,0 +1,48 @@
+<html>
+<head>
+<title></title>
+
+<script src="javascripts/jquery.js" type="text/javascript"></script>
+        <script type="text/javascript">
+        $(document).ready(function() {
+        var largura = $(window).width(); /* Capturando a do cliente */
+        if (largura <= 921) {
+        /* Se a Largura do monitor for menor ou = que 921 px */
+        $("#hire").hide(); /* Esconde a bandeira azul*/
+        $("#resize").hide(); /* Esconde "triangulo" resize no canto inferior direito*/
+        }
+        else if (tam >= 922) {
+        /* Se não for a condição a cima e for marior ou = a 922 px */
+        $("#hire").show(); /* Mostra a bandeira azul*/
+        $("#resize").show(); /* Mostra "triangulo" resize no canto inferior direito*/
+        }
+});
+</script>
+
+</head>
+
+<body>
+	<div class=”container”>
+		<table border=1 style="height:500px; width:100px;">
+			<script>
+				var i=0;
+				
+			while(i<100)
+			{
+				if(i%2==0){
+				document.write("<td width=50 bgcolor=#E0FFFF>" + "xxxxxxx" + "</td>");
+				document.write("<td width=150 bgcolor=#E0FFFF>" + "ffffff" + "</td>");
+				document.write("</tr>");
+				}else{
+				document.write("<td width=50 bgcolor=#B0E0E6>" + "xxxxxxx" + "</td>");
+				document.write("<td width=150 bgcolor=#B0E0E6>" + "ffffff" + "</td>");
+				document.write("</tr>");
+				}
+				i++;
+				
+			}
+			</script>
+			</table>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset=utf-8>
+	<title> Primeira Pagina HTML 5</title>
+</head>
+<body>
+
+    <div>Novas Tags HTML 5.</div>
+	<br />
+    <form id="form_principal">
+		<fieldset>
+			<legend>Formulario</legend>
+			<!-- Atributos -->
+			<!-- Placeholder: serve para criar uma mascara para um campo de texto -->
+			<!-- Autofocus: serve para posicionar o cursor no campo de texto -->
+			<!-- autocomplete serve para guardar o historico de dados digitados no input.  -->
+			<!-- accesskey funciona como tecla de atalho, usar alt + letra  -->
+			<!--   -->
+			<!--   -->
+			<!-- Requerid serve para informar que o campo e obrigatorio ao enviar os dados -->
+			<p><label for="cpf">CPF     <input type="text" name="cpf"id="cpf" placeholder="999.999.999-99" autofocus
+										pattern = "^\d{3}\.\d{3}\.\d{3}-\d{2}$"></label></p>
+			<!-- o sinal de ^ informa o inicio da linha e o $ o final da expressão regular  -->
+			<!-- \d{3}\. indica que deve ser digitado 3 valores numericos e depois um ponto   -->
+			<!-- \s{1} indica que tem 1 espaço em branco antes do proximo caracter   -->
+			
+			<p><label for="email">email: <input type="email" name="email" id="email" placeholder="nome@dominio.com" ></label></p>
+			<p><label>site    <input type="url" id="URL" placeholder="http://www.endereco.com"></label></p>
+			<p><label>telefone<input type="tel" name="tel" id="tel" placeholder="(99) 9999-9999"
+							pattern = "^\(?\d{2}\)\s{1}\d{4}[-\s]\d{4}$"></label></p>
+			<p><label>Busca   <input type="search" name="busca" id="busca"></label></p>
+			<p><label>Volume  <input type="range" id="VOLUME" min="0" max="10" step="2"></label></p>
+			<p><label>Nota    <input type="number" id="NOTA" min="0" max="10" step="2"></label></p>
+			<p><label>Data    <input type="date" id="DATA"></label></p>
+			<p><label>Data/Hora<input type="datetime-local" id="data-time"></label></p>
+			<p><label for="semana">Semana\Ano  <input type="week" name="semana" id="semana"></label></p>
+			<p><label >Browser</label>
+			<input list="browsers" name="browser" id="browser">
+            <datalist id="browsers">
+				<option value="Chrome"> </option>
+				<option value="Firefox"></option>
+				<option value="Internet Explorer"></option>
+				<option value="Opera"></option>
+				<option value="Safari"></option>
+			</datalist>
+		</fieldset>
+		<br />
+		<input type="submit"> <input type="reset">
+	
+	</form>
+	
+	<!-- Para input fora do formulario podemos utilizar o atribudo form dentro do input -->
+	<p><label>Hora    <input type="time" name="hora" id="hora" form="form_principal" accesskey="h"></label></p>
+	<p><label>Mes\Ano <input type="month" name="mes\ano" id="mes\ano" form="form_principal"></label></p>
+	
+</body>
+</html>

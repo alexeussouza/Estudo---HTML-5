@@ -1,0 +1,80 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#principal{
+	text-align: center;
+	color: #FFF;
+	width: 1000px;
+	background: red;
+}
+
+#principal #cabecalho{
+	width: 100%;
+	height: 50px;
+	background: blue;
+}
+
+#principal #menu{
+	border: 0;
+	width: 100%;
+	height: 50px;
+	background: green;
+}
+
+#principal #area_1 ul{
+	list-style: none;
+	text-align: justify;
+	color: #000;
+	width: 100%;
+}
+
+#principal #area_1 li{
+	float: left;
+	width: 230px;
+	height: 200px;
+	margin-right: 2px;
+	margin-left: 2px;
+	display: inline;
+	border: 2px outset;
+	background: #FFF;
+}
+
+#principal #area_1 li:visited{
+	color: #ffffcc
+}
+
+#principal #area_1 li:hover{
+	color: green;
+	background: #DCDCDC;
+}
+
+#principal #area_2 ul{
+	list-style: none;
+	text-align: justify;
+	color: #000;
+	width: 100%;
+}
+
+#principal #area_2 li{
+	float: right;
+	width: 230px;
+	height: 200px;
+	margin-right: 2px;
+	margin-left: 2px;
+	display: inline;
+	border: 2px outset;
+	background: #FFF;
+}
+
+#principal #area_2 li:visited{
+	color: #ffffcc
+}
+
+#principal #area_2 li:hover{
+	color: green;
+	background: #DCDCDC;
+}
+
+

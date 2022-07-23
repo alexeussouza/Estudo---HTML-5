@@ -1,0 +1,44 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#menu{
+	text-align: center;
+	color: #FFF;
+	width: 117px;
+	padding: 5px;
+	border: 1px;
+	background: red;
+}
+
+#menu ul{
+	width: 100px;
+	background: #000;
+	padding: 6px;
+	border: 3px outset #FFF;	
+}
+
+#menu li{
+	
+	list-style: none;
+	padding: 3px 5px;
+	background: green;
+	margin-bottom: 2px;
+}
+
+#menu li a{
+	display: block;
+	color: #FFF;
+	text-decoration: none;
+}
+
+#menu li a:visited{
+	color: #ffffcc
+}
+
+
+#menu li a:hover{
+	color: green;
+	background: #FFF;
+}

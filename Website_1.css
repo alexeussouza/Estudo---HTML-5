@@ -1,0 +1,127 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#principal{
+	margin: 0 auto;
+	width: 100%;
+	background: #f4f4f4;
+}
+
+#cabecalho{
+	text-align: center;
+	background: #ccc;
+	padding: 20px;
+}
+
+#menu{
+	text-align: center;
+	width: 100%;
+	background: #f4f4f4;
+}
+
+#menu ul{
+	margin: 0;
+	padding: 0;
+}	
+
+#menu ul li{	
+	display: inline;
+	padding: 5px;	
+}
+
+#menu li a{
+	text-align: center;
+	padding: 5px 10px;
+	text-decoration: none;
+	border-right: 1px solid #FFF;
+}
+
+#menu li a:hover{
+	background: #383;
+	
+}
+
+#corpo{
+	float: left;
+	width: 100%;
+	background: #FFF;
+}
+
+
+#menu_esquerdo{
+	float: left;
+	width: 12%;
+	padding: 20px 0;
+	margin: 0 2%;
+}
+
+#conteudo{
+	float: left;
+	width: 66%;
+    margin: 0 0 0 2%;
+	padding: 20px 0;
+	
+}
+
+#conteudo h2{
+	
+	margin: 0;
+	color: red;
+}
+
+#conteudo p{
+	
+	text-align: justify;
+	margin-bottom: 10px;
+}
+
+#menu_esquerdo{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background: #FFF url("fundo1.gif") repeat-y 20% 0;
+}
+
+#menu_esquerdo li{
+	margin: 0 0 1em;
+	padding: 0;
+	list-style: none;	
+}
+
+#menu_esquerdo li a{
+	
+	text-decoration: none;
+}
+
+#menu_esquerdo li a:hover{
+	background: #383;
+	
+}
+
+#menu_direito{
+	float: right;
+	width:16%;
+	padding: 20px 0;
+	margin: 0 2% 0 0;
+	display: inline;
+}
+
+#menu_direito h3{
+	margin: 0;
+	margin-bottom: 5px;
+	color: red;
+}
+
+#menu_direito p{
+	text-align: justify;
+	font-size: 12px;
+}
+
+#rodape{
+	clear: both;
+	text-align: center;
+	background: #ccc;
+	padding: 20px;	
+}

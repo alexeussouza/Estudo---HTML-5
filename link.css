@@ -1,0 +1,24 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+a{
+	text-decoration: none;
+	color: #00FA9A
+	
+}
+
+a:visited{
+	color: orange;
+	
+}
+
+
+a:hover{
+	font-size: 150%;
+	text-decoration: underline;
+	color:red;
+	background: green;
+	
+}

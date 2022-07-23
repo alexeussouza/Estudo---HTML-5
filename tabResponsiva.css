@@ -1,0 +1,35 @@
+*{
+	margin:0px;
+	padding:0px;
+	
+}
+
+body{
+	margin: 2px;
+}
+
+table, th, td{
+	
+	border: 1px solid #000;
+}
+
+th{
+	background-color: #8a8;
+	color: #fff;
+	font-size: 15px;
+	
+}
+
+table{
+	width: 500px;
+	table-layout: fixed;
+	border-collapse: collapse;
+	
+}
+
+/* Efeito zebrado, usar even para colorir em pares */
+tr:nth-child(even){
+	
+	background:#B0E0E6;
+	
+}

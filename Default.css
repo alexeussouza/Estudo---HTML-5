@@ -1,0 +1,51 @@
+body{
+	background: #FFF;
+}
+
+h1{
+	font-family: arial;
+	font-size: 50px;
+	color: #fff;	
+	background: #2E8B57;
+}
+
+h2{
+	font-family: arial;
+	color: #006400;
+	font-size: 60px;
+	font-weight: bold;
+	background: #778899;
+}
+
+h3{
+	font-family: arial;
+	color: #006400;
+	font-size: 60px;
+	text-decoration: overline;
+}
+
+h4{
+	
+	font-family: arial;
+	color: #006400;
+	font-size: 60px;
+	text-decoration: line-through;
+	background: #778899;
+}
+
+div{
+	
+	font-family: verdana;
+	font-size: 70px;
+	color: #6666ff;
+	font-style: italic;
+	font-weight: bold;
+	background: #FFDEAD;
+}
+
+p{
+	font-family: courier;
+	color: #87cefa;
+	font-size: 80px;
+	background: #00008b;
+}
